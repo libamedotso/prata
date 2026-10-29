@@ -48,4 +48,4 @@ When the build is done, you will see your built files in `build` directory.
 
 ---
 
-*2026, Amelia A. Corpin. Open-Source, MIT License. See [LICENSE.md](./LICENSE.md) for more information.*
+*2026, Amelia A. Corpin. Open-Source, MIT License. See [LICENSE](./LICENSE) for more information.*
