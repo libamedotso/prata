@@ -26,7 +26,8 @@ results. Implementation is written for Web in JavaScript (ECMAScript 6)
 This started as a thesis project, it's available to the public as an
 open-source project for everyone to test and learn. This project does
 not expect any improvements but if you (as a developer) still insist,
-you can contribute to this project under the terms in [DEV.md](./DEV.md)
+you can contribute to this project under the terms in
+[CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ---
 
