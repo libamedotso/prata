@@ -9,7 +9,7 @@
 <a href="https://libamedotso.github.io/prata"><kbd>Live Demo</kbd></a> |
 <a href="https://github.com/libamedotso/prata/issues"><kbd>Report an issue</kbd></a>
 
-An Eucledian-Accelerated Rainwater Tank Sizing Framework. It uses modified
+An Euclidean-Accelerated Rainwater Tank Sizing Framework. It uses modified
 versions of WRP12 and Rippl Method to get theoretical data, it feeds
 the generated theoretical data into a reference dataset to locate the closest 
 real-life data using the Euclidean Distance formula and compares them to
