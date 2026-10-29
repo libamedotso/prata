@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: PRaTa, Eucledian-Accelerated Rainwater Tank Sizing Framework.
+message: >-
+    If you use this software, please cite it using the
+    metadata from this file.
+type: software
+authors:
+    -
+        given-names: Amelia
+        family-names: A. Corpin
+repository-code: 'https://github.com/libamedotso/prata'
+url: 'https://libamedotso.github.io/prata'
+license: MIT
