@@ -1,0 +1,78 @@
+.VDivider {
+    display: inline-block;
+    width: 1px;
+    height: stretch;
+    background-color: #404040;
+}
+
+.HDivider {
+    display: inline-block;
+    width: stretch;
+    height: 1px;
+    background-color: #404040;
+}
+
+.FlexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.FlexJustify_start {
+    justify-content: start;
+}
+
+.FlexJustify_center {
+    justify-content: center;
+}
+
+.FlexJustify_stretch {
+    justify-content: space-between;
+}
+
+.FlexJustify_end {
+    justify-content: end;
+}
+
+.FlexAlign_start {
+    align-items: start;
+}
+
+.FlexAlign_stretch {
+    align-items: stretch;
+}
+
+.FlexAlign_center {
+    align-items: center;
+}
+
+.FlexAlign_end {
+    align-items: end;
+}
+
+.Crumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.CrumbPiece {
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.Crumb[aria-selected="true"] .CrumbPiece {
+    background-color: #323232;
+    font-weight: bold;
+}
+
+.Crumb:not(:nth-child(1))::before {
+    content: '⟶';
+}

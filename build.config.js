@@ -36,7 +36,10 @@ const configuration = {
     },
     loader: {
         // Importables
-        ...Object.fromEntries(importables.map(e => [e, 'dataurl']))
+        ...Object.fromEntries(importables.map(e => [e, 'dataurl'])),
+
+        // Local CSS
+        '.m.css': 'local-css'
     },
     define: {
         PROJECT_NAME:     JSON.stringify(pkgjson.name),

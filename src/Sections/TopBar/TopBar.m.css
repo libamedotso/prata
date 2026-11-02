@@ -1,0 +1,29 @@
+.TopBar {
+    padding: 16px;
+    background: none;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.Logo {
+    width: 26px;
+    user-select: none;
+}
+
+.ProjectDetails {
+    font-weight: bold;
+    user-select: none;
+}
+
+.ProjectDetails sup {
+    font-size: 11px;
+    margin-left: 4px;
+}
+
+.Social {
+    line-height: 0px;
+}
+
+.Social img {
+    height: 24px;
+}
