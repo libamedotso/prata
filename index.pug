@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{PROJECT_DNAME}
+        link(rel="stylesheet", href=CSS_FILE)
+        link(rel="icon", href=LOGO_FILE)
+        meta(name="title", content=PROJECT_DNAME)
+        meta(name="description", content=PROJECT_DESC)
+        meta(name="keywords", content=PROJECT_KEYWORDS)
+        meta(name="author", content=PROJECT_AUTHOR)
+        style.
+            * {
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                color-scheme: dark;
+                color: white;
+            }
+            body {
+                background-color: #121212;
+            }
+    body
+        div#app
+        script(type="text/javascript" src=JS_FILE)
